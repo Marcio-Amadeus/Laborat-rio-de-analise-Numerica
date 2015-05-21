@@ -1,0 +1,14 @@
+﻿Build started 12/04/2015 20:15:01.
+     1>Project "C:\Users\MSTI 02\documents\visual studio 2013\Projects\lab_5\lab_5\lab_5.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Questao_3.cpp
+         Questao_3.cpp
+     1>c:\users\msti 02\documents\visual studio 2013\projects\lab_5\lab_5\questao_3.cpp(29): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\msti 02\documents\visual studio 2013\projects\lab_5\lab_5\questao_3.cpp(31): warning C4244: '*=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\msti 02\documents\visual studio 2013\projects\lab_5\lab_5\questao_3.cpp(47): error C2372: 'b' : redefinition; different types of indirection
+                 c:\users\msti 02\documents\visual studio 2013\projects\lab_5\lab_5\questao_3.cpp(44) : see declaration of 'b'
+     1>Done Building Project "C:\Users\MSTI 02\documents\visual studio 2013\Projects\lab_5\lab_5\lab_5.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.14
