@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		EC8A88CD1B129D2400DC251B /* Lab_9 */ = {isa = PBXFileReference; explicitFileType = folder; includeInIndex = 0; path = Lab_9; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8A88D11B129D2400DC251B /* ContentInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ContentInfo.plist; sourceTree = "<group>"; };
+		EC8A88D71B129D6C00DC251B /* Simpson.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Simpson.c; sourceTree = "<group>"; };
+		EC8A88D81B129D6C00DC251B /* Simpson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simpson.h; sourceTree = "<group>"; };
+		EC8A88D91B129FF300DC251B /* DoubleSimpson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleSimpson.cpp; sourceTree = "<group>"; };
+		EC8A88DA1B129FF300DC251B /* DoubleSimpson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleSimpson.h; sourceTree = "<group>"; };
+		EC8A88DB1B12A11900DC251B /* AdaptiveSimpson.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AdaptiveSimpson.cpp; sourceTree = "<group>"; };
+		EC8A88DC1B12A11900DC251B /* AdaptiveSimpson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdaptiveSimpson.h; sourceTree = "<group>"; };
+		EC8A88DD1B12A1B000DC251B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EC8A88DE1B12A1B000DC251B /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		EC8A88C61B129D2400DC251B = {
+			isa = PBXGroup;
+			children = (
+				EC8A88DD1B12A1B000DC251B /* main.cpp */,
+				EC8A88DE1B12A1B000DC251B /* main.h */,
+				EC8A88DB1B12A11900DC251B /* AdaptiveSimpson.cpp */,
+				EC8A88DC1B12A11900DC251B /* AdaptiveSimpson.h */,
+				EC8A88D91B129FF300DC251B /* DoubleSimpson.cpp */,
+				EC8A88DA1B129FF300DC251B /* DoubleSimpson.h */,
+				EC8A88D71B129D6C00DC251B /* Simpson.c */,
+				EC8A88D81B129D6C00DC251B /* Simpson.h */,
+				EC8A88CF1B129D2400DC251B /* Lab_9 */,
+				EC8A88CE1B129D2400DC251B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8A88CE1B129D2400DC251B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A88CD1B129D2400DC251B /* Lab_9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8A88CF1B129D2400DC251B /* Lab_9 */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A88D01B129D2400DC251B /* Supporting Files */,
+			);
+			path = Lab_9;
+			sourceTree = "<group>";
+		};
+		EC8A88D01B129D2400DC251B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8A88D11B129D2400DC251B /* ContentInfo.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8A88CC1B129D2400DC251B /* Lab_9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8A88D41B129D2400DC251B /* Build configuration list for PBXNativeTarget "Lab_9" */;
+			buildPhases = (
+				EC8A88CB1B129D2400DC251B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab_9;
+			productName = Lab_9;
+			productReference = EC8A88CD1B129D2400DC251B /* Lab_9 */;
+			productType = "com.apple.product-type.in-app-purchase-content";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8A88C71B129D2400DC251B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = amadeus;
+				TargetAttributes = {
+					EC8A88CC1B129D2400DC251B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = EC8A88CA1B129D2400DC251B /* Build configuration list for PBXProject "Lab_9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC8A88C61B129D2400DC251B;
+			productRefGroup = EC8A88CE1B129D2400DC251B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8A88CC1B129D2400DC251B /* Lab_9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8A88CB1B129D2400DC251B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EC8A88D21B129D2400DC251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		EC8A88D31B129D2400DC251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		EC8A88D51B129D2400DC251B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lab_9/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Debug;
+		};
+		EC8A88D61B129D2400DC251B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Lab_9/ContentInfo.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/InAppPurchaseContent";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8A88CA1B129D2400DC251B /* Build configuration list for PBXProject "Lab_9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A88D21B129D2400DC251B /* Debug */,
+				EC8A88D31B129D2400DC251B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8A88D41B129D2400DC251B /* Build configuration list for PBXNativeTarget "Lab_9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8A88D51B129D2400DC251B /* Debug */,
+				EC8A88D61B129D2400DC251B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8A88C71B129D2400DC251B /* Project object */;
+}
